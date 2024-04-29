@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="contains.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="endwith.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="remove.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="replace.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="reverse.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="startwith.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="substring.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="contains.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="endwith.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="remove.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="replace.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="reverse.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="startwith.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="substring.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
